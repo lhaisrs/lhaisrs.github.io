@@ -1,6 +1,7 @@
 body {
     background-color: #2C2A2A;
     font-family: 'Manrope', sans-serif;
+    overflow: hidden;
 }
 
 .container-row {
