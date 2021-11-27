@@ -1,0 +1,47 @@
+body {
+    background-color: #2C2A2A;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container-row {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-col-8 {
+    width: 60%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-col-8 .title {
+    color: #ffffff;
+    font-size: 7.5rem;
+    margin: 0px !important;
+}
+
+.container-col-8 .btn-develop {
+    background-color: #B382ED;
+    color: #ffffff;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-col-4 {
+    width: 20%;
+    display: grid;
+    justify-content: flex-start;
+}
+
+.container-col-4 .code-tag {
+    color: #B382ED;
+    font-size: 10.5rem;
+}
